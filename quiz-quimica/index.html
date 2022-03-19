@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QUIZ DA QUÍMICA</title>
+    <style>
+        body {
+            text-align: justify;
+            font: normal 20px Arial, Verdana, sans-serif;
+            background-color: rebeccapurple;
+        }   
+
+        h1 {
+            text-align: center;
+            color: rgba(62, 167, 36, 0.844);
+        }
+
+        h2 {
+            font-size: 25px;
+            text-align: center;
+            color: rgba(24, 130, 42, 0.761);
+        }
+
+        main {
+            margin: auto;
+            padding: 10px;
+            background-color: rgb(246, 182, 252);
+            width: 600px;
+            height: 1800px;
+            border-radius: 10px;
+            box-shadow: 6px 6px 12px rgba(54, 181, 37, 0.727);
+        }
+
+        #enviar {
+            font: normal 20px Arial, Verdana, sans-serif;
+            position: relative;
+            background-color: rebeccapurple;
+            color: rgba(169, 117, 221, 0.857);
+            width: 80px;
+            height: 35px;
+            border-radius: 10px;
+            top: 45px;
+            left: 80%;
+        }
+
+        #pontos{
+            font: Bold 25px Arial, Verdana, sans-serif;
+            text-align: center;
+            position: relative;
+            top: 65px;
+            width: 500px;
+            margin: auto;
+        }
+
+        #nivel2 {
+            display: none;
+        }
+
+        #nivel3 {
+            display: none;
+        }
+
+        #fase2 {
+            font-size: 25px;
+            text-align: center;
+            color: rgba(24, 130, 42, 0.761);
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <h1>QUIZ DA QUÍMICA</h1>
+        <h2>FASE 1</h2>
+        <strong>01- </strong> <u>Quais elementos formam a água?</u> <br>
+        <input type="radio" name="questao1" id="certo1">H + O²; <br>
+        <input type="radio" name="questao1">Fe + Li; <br>
+        <input type="radio" name="questao1">O² + N; <br>
+        <input type="radio" name="questao1">H + N; <br>
+
+        <strong>02- </strong> <u>Quais os gases do efeito estufa?</u> <br>
+        <input type="radio" name="questao2">Oxigênio e Hidrogênio; <br>
+        <input type="radio" name="questao2">Nitrogênio, Oxigênio e Hidrogênio; <br>
+        <input type="radio" name="questao2" id="certo2">Dióxido de Carbono, Metano, Dióxido de Enxofre; <br>
+        <input type="radio" name="questao2">Hélio e Hidrogênio; <br>
+
+        <strong>03- </strong> <u>Quais das alternativas abaixo é uma reação química;</u> <br>
+        <input type="radio" name="questao3">Amassar um papel; <br>
+        <input type="radio" name="questao3">Congelamento da água; <br>
+        <input type="radio" name="questao3" id="certo3">Alimento se decompondo no lixo; <br>
+        <input type="radio" name="questao3">Quebrar um copo; <br>
+
+        <div id="nivel2">
+            <h2 id="fase2">FASE 2</h2>
+            <strong>04- </strong> <u>Qual o número atômico do Hidrogênio?</u> <br>
+            <input type="radio" name="questao4">0; <br>
+            <input type="radio" name="questao4">3; <br>
+            <input type="radio" name="questao4" id="certo4">1; <br>
+            <input type="radio" name="questao4">5; <br>
+
+            <strong>05- </strong> <u>Por volta do ano de 1800, Dalton propôs seu modelo atômico. Segundo este cientista, como era o átomo?</u> <br>
+            <input type="radio" name="questao5" id="certo5">Era indivisível, indestrutível, maciço, sem carga elétrica e homogêneo;<br>
+            <input type="radio" name="questao5">Era uma partícula de carga positiva, destrutível com o uso de maquinário específico e especial, e não era maciço, sendo repleto de espaços vazios; <br>
+            <input type="radio" name="questao5">Formado pelos quatro elementos (terra, fogo, água e ar); <br>
+            <input type="radio" name="questao5">Era uma esfera de carga negativa, incrustada de elétrons, também de carga negativa; <br>
+        
+            <strong>06- </strong> <u>Quantas famílias tem na tabela periódica?</u> <br>
+            <input type="radio" name="questao6">17; <br>
+            <input type="radio" name="questao6">30; <br>
+            <input type="radio" name="questao6" id="certo6">18; <br>
+            <input type="radio" name="questao6">13; <br>
+
+            <strong>07- </strong> <u>Qual o símbolo do ouro? </u> <br>
+            <input type="radio" name="questao7">Fe; <br>
+            <input type="radio" name="questapo7">Ou; <br>
+            <input type="radio" name="questao7">Ni; <br>
+            <input type="radio" name="questao7" id="certo7">Au; <br>
+        </div>
+
+        <div id="nivel3">
+            <h2 id="fase3">FASE 3 - FINAL</h2>
+            <strong>08- </strong> <u>Os principais gases da atmosfera terrestre são:</u> <br>
+            <input type="radio" name="questao8">Nitrogênio, Oxigênio, Hélio e Hidrogênio; <br>
+            <input type="radio" name="questao8" id="certo8">Nitrogênio, Oxigênio, Argônio e Dióxido de Carbono; <br>
+            <input type="radio" name="questao8">Hélio e Hidrogênio; <br>
+            <input type="radio" name="questao8">Dióxido de enxofre, Nitrogênio, Hidrogênio e Argônio; <br>
+
+            <strong>09- </strong> <u>Do que é composto o sol?</u> <br>
+            <input type="radio" name="questao9">Nitrogênio, Oxigênio; <br>
+            <input type="radio" name="questao9">Nitrogênio, Hidrogênio; <br>
+            <input type="radio" name="questao9">Argônio e Dióxido de Carbono; <br>
+            <input type="radio" name="questao9" id="certo9">Hélio e Hidrogênio; <br>
+
+            <strong>10- </strong> <u>O que diz a teoria atômica de Rutherford?</u> <br>
+            <input type="radio" name="questao10" id="certo10">diz que o átomo seria formado por um núcleo com partículas positivas (prótons) e partículas neutras (nêutrons); <br>
+            <input type="radio" name="questao10" >É formado pelos quatro elementos (terra, fogo, água e ar); <br>
+            <input type="radio" name="questao10">É indivisível, indestrutível, maciço, sem carga elétrica e homogêneo ; <br>
+            <input type="radio" name="questao10">Nenhuma das alternativas; <br>
+        </div>
+
+        <input type="submit" name="submit" value="Enviar" id="enviar" onclick="result()">
+
+        <div id="pontos"></div>
+    </main>
+
+    <script type="text/javascript">
+        function result() {
+            var score = 0;
+            var pontos = document.getElementById('pontos')
+
+            if (document.getElementById('certo1').checked)
+            {
+                score++;
+            }
+            if (document.getElementById('certo2').checked)
+            {
+                score++;
+            }
+            if (document.getElementById('certo3').checked)
+            {   
+                score++;
+            }
+            if (document.getElementById('certo4').checked)
+            {   
+                score++;
+            }
+            if (document.getElementById('certo5').checked)
+            {   
+                score++;
+            } 
+            if (document.getElementById('certo6').checked)
+            {   
+                score++;
+            } 
+            if (document.getElementById('certo7').checked)
+            {   
+                score++;
+            } 
+            if (document.getElementById('certo8').checked)
+            {   
+                score++;
+            } 
+            if (document.getElementById('certo9').checked)
+            {   
+                score++;
+            } 
+            if (document.getElementById('certo10').checked)
+            {   
+                score++;
+            } 
+            if (score >= 3)
+            {
+                var nv2 = document.getElementById('nivel2')
+                nv2.style.display = 'inline'
+                pontos.innerHTML = `Parabéns você fez ${score} pontos! xD`;
+            }
+            if (score >= 6) 
+            {
+                var nv3 = document.getElementById('nivel3')
+                nv3.style.display = 'inline'
+            } 
+            else if (score <= 2){
+                pontos.innerHTML = `Você acertou ${score} :( vai estudar um pouco!`;
+           
+            }
+            
+        }
+        
+    </script>
+</body>
+</html>

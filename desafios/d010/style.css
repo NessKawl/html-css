@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'idroid';
+    src: url(fontes/idroid.otf) format('opentype');
+}
+
+@import url('https://fonts.googleapis.com/css2? family = Bebas + Neue & display = swap');
+
+body {
+    font: normal 100% Arial, Verdana, sans-seif;
+    background-color: rgba(84, 192, 111, 0.753);
+}
+
+p {
+    text-indent: 10px;
+}
+
+header {
+    text-align: center;
+    color: white;
+    padding: 10px;
+    background-image: linear-gradient(to top, rgb(37, 150, 93), rgba(61, 236, 128, 0.801));
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.534);
+}
+
+nav {
+    text-align: left;
+}
+
+nav > a {
+    color:  white;
+    text-decoration: none;
+}
+
+main {
+    text-align: justify;
+    max-width: 800px;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.479);
+}
+
+article > h1 {
+    color: rgb(38, 161, 65);
+    font-family: 'idroid';
+}
+
+article > h2 {
+    color: rgb(38, 161, 65);
+    font-family: 'idroid';
+}
+
+p > a {
+    color: rgb(38, 161, 65);
+}
+
+#video {
+    background-color: rgba(61, 236, 128, 0.801);
+    padding: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
+}
+
+#extras {
+    background-color: rgba(61, 236, 128, 0.479);
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.527);
+}
+
+section > h3 {
+    padding: 10px;
+    background-color: rgb(40, 165, 88);
+    border-radius: 5px 5px 0 0 ;
+}
+
+article {
+    padding: 0px 8px 1px 8px;
+}
+
+#ultimo-paragrafo {
+    margin: 15px;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 80, 0);
+    margin: 10px;
+    padding: 5px;
+}
