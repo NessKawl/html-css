@@ -7,16 +7,24 @@
     <title>Fundo totalmente preenchido</title>
     <style>
         body {
-            height: 100vh;
-            background-color: black;
+            height: 97vh;
+            /*background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed;*/
+
+            /*Shorthand - background
+            backround: color > image > position > repeat > [size - a propriedade size não funciona nas shorthands] > attachment; 
+            */
+            
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
         }
 
         main {
-            width: 500px;
+            max-width: 400px;
             padding: 15px;
             margin: auto;
             background-color: aliceblue;
@@ -28,7 +36,7 @@
 <body>
     <main>
         <h1>Testando adaptação de imagem de fundo</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quod laboriosam nostrum porro incidunt repellendus dolorum illum nesciunt beatae. Fugit vitae repellat ad saepe at similique quasi sunt nam deleniti. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ipsam officiis rem asperiores doloremque quisquam, expedita voluptatibus architecto et in atque neque aut adipisci esse possimus excepturi. Et, nulla consequatur? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et illum quaerat nulla possimus explicabo perferendis. Similique quos possimus exercitationem eligendi beatae voluptatem suscipit iusto iste quisquam autem. Ducimus, corrupti modi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe rem ipsa ab quibusdam hic eaque? Quaerat voluptatum harum impedit dolores reiciendis. Dicta, dignissimos dolorum deleniti animi nobis aperiam possimus eius.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quod laboriosam nostrum porro incidunt repellendus dolorum illum nesciunt beatae. Fugit vitae repellat ad saepe at similique quasi sunt nam deleniti. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil ipsam officiis rem asperiores doloremque quisquam, expedita voluptatibus architecto et in atque neque aut adipisci esse possimus excepturi. Et, nulla consequatur? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Et illum quaerat nulla possimus explicabo perferendis. Similique quos possimus exercitationem eligendi beatae voluptatem suscipit iusto iste quisquam autem. Ducimus, corrupti modi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe rem ipsa ab quibusdam hic eaque? Quaerat voluptatum harum impedit dolores reiciendis. Dicta, dignissimos dolorum deleniti animi nobis aperiam possimus eius. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius ipsa illum minima. Beatae accusamus, enim at, alias ad tempora sed ducimus id velit commodi quae fuga sapiente, a et eligendi? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum praesentium, repellendus commodi aspernatur aliquid nobis, voluptates impedit consectetur illo debitis at. Animi atque recusandae eos labore modi reprehenderit sed unde? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi beatae a explicabo ut corporis fuga ea debitis adipisci commodi aut voluptatibus vel laudantium, eligendi quisquam eveniet rerum, officiis quam laborum. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos numquam illo facere sequi necessitatibus fuga, quo ex consectetur, quaerat obcaecati facilis praesentium qui totam exercitationem, nulla est eos! Esse, eaque?</p>
     </main>
 </body>
 </html>
