@@ -31,10 +31,22 @@
             background-color: gray;
         }
 
+        tbody > tr:nth-child(2n) {
+            background-color: lightgray;
+        }
+
         td.num {
             text-align: right;
         }
 
+
+        /*  
+            EFEITO ZEBRADO
+                nth-child() 
+                    2n, 3n, 4n... - Coloca a cor de 2, 3, 4 em 2, 3, 4 linhas
+                    odd -  Coloca a cor nas linhas ímpares
+                    even -  Coloca a cor nas linhas pares                    
+        */
 
         /*
             TABLE 
